@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# lorawan-model
 
-You can use the [editor on GitHub](https://github.com/signetlabdei/lorawan-model/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This repo contains an accurate and configurable model to estimate the network performance of a [LoRaWAN](https://lora-alliance.org/about-lorawan) network with a single gateway.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Through multiple configurable parameters, the model allows the user to estimate the performance of LoRaWAN networks applying standard configurations, as well as to test innovative and more efficient options. 
 
-### Markdown
+Performances are computed in terms of Packet Delivery Ratio (PDR) and delays. An overview of the model structure, employed assumption and accepted input and outputs are described below.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The analytical model is written in Python, and its results can be easily compared to the simulation outcomes obtained through the ns-3 [lorawan](https://github.com/signetlabdei/lorawan) module.
 
-```markdown
-Syntax highlighted code block
+Further information can be found at [INSERIRE LINK ARXIV]
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Model structure and assumptions
 
-1. Numbered
-2. List
+### Inputs and configurable parameters
 
-**Bold** and _Italic_ and `Code` text
+### Output
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/signetlabdei/lorawan-model/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
