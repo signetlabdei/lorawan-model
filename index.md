@@ -1,6 +1,6 @@
 # lorawan-model
 
-This repo contains an accurate and configurable model to estimate the network performance of a [LoRaWAN](https://lora-alliance.org/about-lorawan) network with a single gateway.
+This repo will contain an accurate and configurable model to estimate the network performance of a [LoRaWAN](https://lora-alliance.org/about-lorawan) network with a single gateway.
 
 Through multiple configurable parameters, the model allows the user to estimate the performance of LoRaWAN networks applying standard configurations, as well as to test innovative and more efficient options. 
 
